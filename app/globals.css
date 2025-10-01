@@ -63,4 +63,11 @@
   .btn-hover {
     @apply transition-all duration-300 hover:scale-97
   }
+
+  .line-wrapper {
+    @apply overflow-hidden
+  }
+  .line-text {
+    @apply leading-10 pt-8
+  }
 }
