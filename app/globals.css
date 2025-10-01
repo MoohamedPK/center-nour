@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+
+/* FONTS */
+@font-face {
+  font-family: CabinetBold;
+  src: url("/fonts/cabinet/CabinetGrotesk-Bold.otf");
+}
+@font-face {
+  font-family: CabinetExtrabold;
+  src: url("/fonts/cabinet/CabinetGrotesk-Extrabold.otf");
+}
+@font-face {
+  font-family: CabinetExtralight;
+  src: url("/fonts/cabinet/CabinetGrotesk-Extralight.otf");
+}
+@font-face {
+  font-family: CabinetLight;
+  src: url("/fonts/cabinet/CabinetGrotesk-Light.otf");
+}
+@font-face {
+  font-family: CabinetMedium;
+  src: url("/fonts/cabinet/CabinetGrotesk-Medium.otf");
+}
+
+/* USED FONTS */
+@theme {
+  --font-cabinet-bold: CabinetBold, "sans-serif";
+}
+
+@theme {
+  --font-cabinet-ExtraBold: CabinetExtrabold, "sans-serif";
+}
+
+@theme {
+  --font-cabinet-Extralight: CabinetExtralight, "sans-serif";
+}
+
+@theme {
+  --font-cabinet-Light: CabinetLight, "sans-serif";
+}
+
+@theme {
+  --font-cabinet-Medium: CabinetMedium, "sans-serif";
+}
+
+
+
+/* COLOR PALETTE */
+@theme {
+  --color-main : #F2BED1;
+  --color-sec: #FDCEDF;
+  --color-text: #404040;
+}
+
+/* CLASSES */
+@layer utilities {
+
+  .centerlize-items {
+    @apply flex justify-center items-center
+  }
+
+  .btn-hover {
+    @apply transition-all duration-300 hover:scale-97
+  }
+}
