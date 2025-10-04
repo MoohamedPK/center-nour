@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react"
 import {SplitText} from "gsap/SplitText"
 import Image from "next/image"
 import TextSplitAnimation from "@/commonAnimations/TextSplitAnimation"
+import Link from "next/link"
 
 gsap.registerPlugin(SplitText)
 
@@ -59,12 +60,17 @@ return (
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-        <button className="heroBtn px-6 py-3 rounded-full bg-pink-600 text-sec font-semibold hover:bg-pink-700  btn-hover cursor-pointer">
-            Découvrir nos services
-        </button>
-        <button className="heroBtn px-6 py-3 rounded-full border border-pink-600 text-pink-600 font-semibold hover:bg-pink-50 cursor-pointer">
-            Prendre rendez-vous
-        </button>
+        <Link href={"#services"} target="_self">
+            <button id="#services" className="heroBtn px-6 py-3 rounded-full bg-pink-600 text-sec font-semibold hover:bg-pink-700  btn-hover cursor-pointer">
+                Découvrir nos services
+            </button>
+        </Link>
+
+        <Link href={"#booking"} target="_self">
+            <button className="heroBtn px-6 py-3 rounded-full border border-pink-600 text-pink-600 font-semibold hover:bg-pink-50 cursor-pointer">
+                Prendre rendez-vous
+            </button>
+        </Link>
         </div>
     </div>
 

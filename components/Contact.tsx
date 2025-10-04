@@ -82,8 +82,8 @@ const Contact = () => {
         {/* Booking CTA */}
         <div className="contact-btn">
           <Link
-            href="#booking"
-            target="_blank"
+            href={"#booking"}
+            target="self"
             className="inline-block px-8 py-3 btn-hover rounded-full bg-pink-600 text-white font-semibold shadow-md"
           >
             Prendre rendez-vous
