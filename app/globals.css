@@ -56,12 +56,16 @@
 /* CLASSES */
 @layer utilities {
 
+  .section-container {
+    @apply md:py-12 md:px-16
+  }
+
   .centerlize-items {
     @apply flex justify-center items-center
   }
 
   .btn-hover {
-    @apply transition-all duration-300 hover:scale-97
+    @apply hover:bg-pink-700 hover:scale-95 cursor-pointer transition-all duration-300
   }
 
   .line-wrapper {
@@ -70,4 +74,5 @@
   .line-text {
     @apply leading-10 pt-8
   }
+
 }
