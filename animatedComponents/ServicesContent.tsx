@@ -54,7 +54,7 @@ const ServicesContent = ({services}: {services: ServicesProps[]} ) => {
     }, {scope: servicesSectionRef})
 
 return (
-    <div ref={servicesSectionRef} className="py-16 bg-white" id="services">
+    <div ref={servicesSectionRef} className="py-16 bg-white/50 rounded-[20px]" id="services">
         <div className="max-w-6xl mx-auto px-6 text-center space-y-12">
         <h2 className="section-title text-3xl md:text-4xl font-cabinet-bold text-pink-700">
             Nos Services

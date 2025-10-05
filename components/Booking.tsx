@@ -100,7 +100,7 @@ const Booking = () => {
     <section
       ref={BookingRefSec}
       id="booking"
-      className="py-20 bg-gradient-to-b from-pink-50 to-white"
+      className="py-20 bg-white/50 rounded-[20px]"
     >
       <div className="container mx-auto px-6 md:px-12 text-center space-y-10">
         {/* Section Header */}
