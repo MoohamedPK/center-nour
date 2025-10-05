@@ -37,7 +37,7 @@ const Contact = () => {
 }, {scope: ContactRefSec})
 
   return (
-    <section ref={ContactRefSec} className="py-16 bg-white/50 rounded-[20px]" id="contact">
+    <section ref={ContactRefSec} className="py-16 bg-white/50 md:rounded-[20px]" id="contact">
       <div className="max-w-6xl mx-auto px-6 text-center space-y-12">
         {/* Title */}
         <div>

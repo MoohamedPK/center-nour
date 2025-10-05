@@ -38,7 +38,7 @@ const Description = () => {
     }, {scope: descriptionContainerRef})
 
 return (
-    <div ref={descriptionContainerRef} className="py-16 rounded-[20px] bg-white/50" id="about">
+    <div ref={descriptionContainerRef} className="py-16 md:rounded-[20px] bg-white/50" id="about">
         <div className="max-w-4xl mx-auto text-center space-y-6 px-6">
 
             <h2 className="section-title text-3xl md:text-4xl font-cabinet-bold text-pink-700">

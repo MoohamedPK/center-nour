@@ -57,7 +57,7 @@
 @layer utilities {
 
   .section-container {
-    @apply md:py-12 md:px-16
+    @apply md:py-12 md:px-16 my-8
   }
 
   .centerlize-items {
