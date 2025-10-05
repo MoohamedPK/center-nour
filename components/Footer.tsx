@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="footer-col space-y-3 font-cabinet-Medium">
           <h3 className="text-lg font-cabinet-bold">Contact</h3>
           <p className="text-pink-100 text-sm ">
-            Quartier moderne lotissement abou eajae a cote Dar coran, Beni Mellal, Morocco
+            Quartier moderne lotissement abou rajae a cote Dar coran, Beni Mellal, Morocco
           </p>
           <p className="text-pink-100 text-sm">+212 06 42 86 95 28</p>
           <p className="text-pink-100 text-sm">centre.n.r@gmail.com</p>

@@ -54,7 +54,7 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-gray-700">
           <div className='contact-card'>
             <p className="font-semibold">📍 Adresse</p>
-            <p>Quartier moderne lotissement abou eajae a cote Dar coran, Beni Mellal, Morocco</p>
+            <p>Quartier moderne lotissement abou rajae a cote Dar coran, Beni Mellal, Morocco</p>
           </div>
 
           <div className='contact-card'>
