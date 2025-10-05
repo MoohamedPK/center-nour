@@ -251,7 +251,7 @@ const Booking = () => {
         {/* Alternative CTA */}
         <p className="text-text font-cabinet-Medium">
           Ou contactez-nous directement au{" "}
-          <span className="font-semibold text-pink-600">+212 6 00 00 00 00</span>
+          <span className="font-semibold text-pink-600">+212 06 42 86 95 28</span>
         </p>
       </div>
     </section>

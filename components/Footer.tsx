@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram, Phone } from "lucide-react";
 import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -61,10 +61,10 @@ const Footer = () => {
         <div className="footer-col space-y-3 font-cabinet-Medium">
           <h3 className="text-lg font-cabinet-bold">Contact</h3>
           <p className="text-pink-100 text-sm ">
-            Rue Exemple, Casablanca, Maroc
+            Quartier moderne lotissement abou eajae a cote Dar coran, Beni Mellal, Morocco
           </p>
-          <p className="text-pink-100 text-sm">+212 05 23 48 84 34</p>
-          <p className="text-pink-100 text-sm">contact@nourcenter.com</p>
+          <p className="text-pink-100 text-sm">+212 06 42 86 95 28</p>
+          <p className="text-pink-100 text-sm">centre.n.r@gmail.com</p>
 
           {/* Social Icons */}
           <div className="flex space-x-4 mt-3">
@@ -74,8 +74,9 @@ const Footer = () => {
             <Link href="https://www.instagram.com/centre_ennour" target="_blank">
               <Instagram className="w-5 h-5 hover:text-white" />
             </Link>
-            <Link href="https://twitter.com" target="_blank">
-              <Twitter className="w-5 h-5 hover:text-white" />
+            <Link href="https://wa.me/212642869528"
+              target="_blank">
+              <Phone className="w-5 h-5 hover:text-white" />
             </Link>
           </div>
         </div>

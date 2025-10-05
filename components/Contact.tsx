@@ -54,27 +54,27 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-gray-700">
           <div className='contact-card'>
             <p className="font-semibold">📍 Adresse</p>
-            <p>Centre Ennour, Beni Mellal</p>
+            <p>Quartier moderne lotissement abou eajae a cote Dar coran, Beni Mellal, Morocco</p>
           </div>
 
           <div className='contact-card'>
             <p className="font-semibold">📞 Téléphone</p>
             <a
-              href="tel:+212600000000"
+              href="tel:+212642869528"
               className="text-pink-600 hover:underline"
             >
-              +212 6 00 00 00 00
+              +212 06 42 86 95 28
             </a>
           </div>
 
           <div className='contact-card'>
             <p className="font-semibold">💬 WhatsApp</p>
             <a
-              href="https://wa.me/212600000000"
+              href="https://wa.me/212642869528"
               target="_blank"
               className="text-pink-600 hover:underline"
             >
-              +212 6 00 00 00 00
+              +212 06 42 86 95 28
             </a>
           </div>
         </div>
