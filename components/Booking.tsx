@@ -109,7 +109,7 @@ const Booking = () => {
             Réservez votre séance
           </h2>
           <p className="section-paragraph text-lg text-text font-cabinet-Medium max-w-2xl mx-auto">
-            Prenez rendez-vous en ligne et choisissez les services qui vous convient
+            Prenez rendez-vous en ligne et choisissez le service qui vous convient
             pour profiter de nos soins.
           </p>
         </div>
